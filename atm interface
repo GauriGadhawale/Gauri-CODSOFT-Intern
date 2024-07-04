@@ -41,15 +41,13 @@ import java.util.Scanner;
         balance = balance + deposit;  
         System.out.println("Your Money has been successfully depsited");  
         System.out.println("");  
-        break;  
-   
+        break; 
                 case 3:  
         System.out.println("Balance : "+balance);  
         System.out.println("");  
         break;  
    
-                case 4:  
-        //exit from the menu  
+                case 4: 
         System.exit(0);  
             }  
         }  
