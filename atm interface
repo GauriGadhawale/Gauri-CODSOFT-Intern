@@ -24,7 +24,8 @@ import java.util.Scanner;
         {  
         
             balance = balance - withdraw;  
-            System.out.println("Please collect your money");  
+            System.out.println("Please collect your money"); 
+            sc.close();
         }  
         else  
         {  
